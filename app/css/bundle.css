@@ -2,6 +2,9 @@ body {
   background-color: #eeeeee;
   font-family: 'Inconsolata', arial; }
 
+h1, h2 {
+  text-align: center; }
+
 .container {
   margin: 40px auto;
   padding: 40px;

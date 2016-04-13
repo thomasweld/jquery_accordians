@@ -1,11 +1,13 @@
+## Live demo @ http://tiy-thomas-jquery_accordians.surge.sh/
+
 # Project Description
 
-This is a basic template for starting projects.
+Accordion Demo with jQuery, Sass and CSS3 Transitions
 
-## Deployment
+## Project Details
 
-To deploy your project just run:
+- Build a jQuery Accordion WITHOUT using slideUp, slideDown, or slideToggle. Hint: use addClass & removeClass.
 
-- Make sure you have a lowercase folder name
-- `npm run deploy`
-- You should have a 'surge.sh' link now for your project
+- Only CSS3 transitions allowed. It should work for 2 or more sections.
+
+- Each paragraph in each section of the accordion should be a different length. It's important to learn how to deal with variable content length.
