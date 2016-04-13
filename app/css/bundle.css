@@ -1,3 +1,40 @@
 body {
-  background-color: rgba(255, 191, 187, 1);
-}
+  background-color: #eeeeee;
+  font-family: 'Inconsolata', arial; }
+
+.container {
+  margin: 40px auto;
+  padding: 40px;
+  min-width: 260px;
+  max-width: 600px; }
+
+.hidetext {
+  min-height: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  color: white;
+  border-radius: 4px;
+  transition: min-height 1.5s ease, max-height 1.5s ease, overflow 0s linear, padding 0s linear, background-color 1.5s ease, border 1.5s ease; }
+  .hidetext.showtext {
+    min-height: 30px;
+    max-height: 800px;
+    overflow: auto;
+    padding: 6px;
+    background-color: slateblue;
+    border: 1px solid slateblue; }
+
+.inactivebutton {
+  padding: 4px;
+  margin: 4px;
+  font-size: 22px;
+  color: #2c216d;
+  background-color: #d4cff1;
+  border: 1px solid slateblue;
+  border-radius: 4px;
+  outline: none; }
+  .inactivebutton.activebutton {
+    color: white;
+    background-color: slateblue; }

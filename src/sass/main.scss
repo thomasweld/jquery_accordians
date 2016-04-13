@@ -1,0 +1,58 @@
+// variables
+$bgcolor: #eeeeee;
+$blue: slateblue;
+$white: white;
+
+// page styles
+body{
+  background-color: $bgcolor;
+  font-family: 'Inconsolata', arial;
+}
+
+.container {
+  margin: 40px auto;
+  padding: 40px;
+  min-width: 260px;
+  max-width: 600px;
+}
+
+
+// text sections
+.hidetext {
+  min-height: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  background-color: $bgcolor;
+  border: 1px solid $bgcolor;
+  color: $white;
+  border-radius: 4px;
+  transition: min-height 1.5s ease, max-height 1.5s ease, overflow 0s linear, padding 0s linear, background-color 1.5s ease, border 1.5s ease;
+
+  &.showtext {
+    min-height: 30px;
+    max-height: 800px;
+    overflow: auto;
+    padding: 6px;
+    background-color: $blue;
+    border: 1px solid $blue;
+  }
+}
+
+// buttons
+.inactivebutton {
+  padding: 4px;
+  margin: 4px;
+  font-size: 22px;
+  color: darken($blue, 30%);
+  background-color: lighten($blue, 30%);
+  border: 1px solid $blue;
+  border-radius: 4px;
+  outline: none;
+
+  &.activebutton {
+    color: $white;
+    background-color: $blue;
+  }
+
+}
